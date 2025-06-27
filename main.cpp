@@ -132,7 +132,7 @@ int main() {
     SetWindowPos(wind, HWND_TOP, 0, 0, WIDTH, HEIGHT, SWP_SHOWWINDOW);
     SetForegroundWindow(wind);
 
-    auto map = loadMap("firstborn", "3.txt");
+    auto map = loadMap("firstborn", "3.txt"); // Here u can use maps
 
     updateEntityAndObjectList(entityListAddress, objectListAddress, entities, objects, m);
     
